@@ -25,7 +25,7 @@ body::before {
     height: 100%;
     background-color: #3c008a;
     clip-path: circle(600px at left top);
-    z-index: -10;
+    z-index: -1;
 }
 
 body::after {
@@ -39,7 +39,7 @@ body::after {
     height: 100%;
     background-color: #580064;
     clip-path: circle(600px at right bottom);
-    z-index: -10;
+    z-index: -1;
 }
 
 .card {
@@ -51,7 +51,7 @@ body::after {
     text-align: center;
     background: transparent;
     box-shadow: 0 0 10px #00ffdd;
-    perspective: 800px;
+    perspective: 1000px;
     transition: all 1s ease-in-out;
 }
 
@@ -68,7 +68,7 @@ body::after {
 
 .card .front h2 {
     color: #fff;
-    font-size: 2.2em; 
+    font-size: 2em; 
     font-weight: 700;   
 }
 
@@ -81,7 +81,7 @@ body::after {
 
 .card .back h3 {
     color: #fff;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -129,7 +129,7 @@ body::after {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 730px) {
     body {
         height: 100%;
         flex-wrap: wrap;
